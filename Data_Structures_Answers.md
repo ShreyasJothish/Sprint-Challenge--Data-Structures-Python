@@ -46,6 +46,10 @@ So overall complexity is O(mlogm) + O(nlogm).
 where 
     m - number of items in names1_list
     n - number of items in names2_list
+    
+**Stretch goal**
+Based on solution in stretch goal to use only arrays, the solution is optimized to sort both the name arrays before comparison.
+With this overall runtime compexity for finding duplicates is reduced to O(n).
 
 8. What is the space complexity of your optimized code in `names.py`?
 
@@ -54,3 +58,7 @@ So the space complexity for new solution is O(m).
 
 where 
     m - number of items in names1_list
+    
+**Stretch goal**
+
+With stretch goal overall space complexity is reduced to O(1).
